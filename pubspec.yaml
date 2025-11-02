@@ -1,0 +1,16 @@
+name: flutter_portfolio_app
+description: A portfolio tracker app.
+publish_to: "none"
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  http: ^1.2.0
+  intl: ^0.19.0
+
+flutter:
+  uses-material-design: true
